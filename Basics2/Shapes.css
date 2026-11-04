@@ -10,8 +10,13 @@ html,body{
 body{
     background-color:aquamarine;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
  div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 30%; 
     height: 30%;
     font-size: xx-large; 
