@@ -14,8 +14,13 @@ html,body{
    display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Gill Sans';
+}
+h1{
+    font-weight: normal;
 }
 .shape{
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -25,4 +30,23 @@ html,body{
    width: 200px;
    background-color:aliceblue;
    border: 2px solid black;
+}
+#square:hover{
+    background-color: rgb(236, 31, 31);
+}
+#circle{
+    border-radius: 50%;
+}
+#circle:hover{
+    background-color: rgb(117, 51, 232);
+}
+#diamond:hover{
+    background-color: rgb(43, 225, 73);
+}
+#diamond{
+    rotate: 45deg;
+    margin-top: 50px;
+}
+#diamond h1{
+   rotate: -45deg;
 }
