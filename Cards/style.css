@@ -23,6 +23,22 @@ html,body{
    border: 3px solid salmon;
     border-radius: 10px;
 }
-#card1{
-    rotate:10deg;
+#box1{
+    z-index: 4;
+    background-color:salmon;
+}
+#box2{
+    z-index: 3;
+    rotate:-7deg;
+    background-color: aquamarine;
+}
+#box3{
+    z-index: 2;
+    rotate:-14deg;
+    background-color: blue;
+}
+#box4{
+    z-index: 1;
+    rotate:-21deg;
+    background-color: brown;
 }
