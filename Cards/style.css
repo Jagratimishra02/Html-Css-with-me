@@ -29,6 +29,15 @@ html,body{
     transform: translate(-50%,-50%);
     background-color:salmon;
 }
+#box2:hover{
+    z-index:5;
+}
+#box3:hover{
+    z-index:5;
+}
+#box4:hover{
+    z-index:5;
+}
 #box2{
     z-index: 3;
     transform: translate(-50%,-50%) rotate(7deg);
